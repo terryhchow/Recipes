@@ -18,6 +18,8 @@ body {
     font-family: 'Parisienne', cursive;
     border-bottom: 2px solid maroon;
     font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 li {
    list-style: none;
