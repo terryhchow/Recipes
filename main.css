@@ -8,13 +8,16 @@ div {
     margin-left: 20px;
 }
 
-
 body {
     background-color: white;
 }
 .welcome {
-    color:auto;
-
+    color:maroon;
+    display: flex;
+    justify-content: center;
+    font-family: 'Parisienne', cursive;
+    border-bottom: 2px solid maroon;
+    font-size: 45px;
 }
 li {
    list-style: none;
@@ -47,4 +50,12 @@ img {
     width: 250px;
     height: 250px;
     border: 20px, solid, lightgrey ;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.nav > li {
+    
 }
