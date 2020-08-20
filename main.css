@@ -36,7 +36,7 @@ a {
     margin-right: 20px;
 }
 a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .pokemon-caption {
     margin: 0px;
@@ -56,7 +56,9 @@ img {
 .nav {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid maroon;
+    padding-bottom: 12px;
 }
 .carousel {
     position: relative;
@@ -120,4 +122,17 @@ img {
 }
 .carousel__indicator.current-slide {
     background:white;
+}
+.about-me {
+    margin-left: 80px;
+    margin-right: 80px;
+    display:inline-block;
+    text-align:center;
+}
+.recipes-index {
+    margin: 50px;
+}
+.recipe-bullet {
+    margin-bottom: 10px;
+    font-size: 18px;
 }
