@@ -5,7 +5,7 @@
 div {
     font-family: noto;
     color: rgb(46, 46, 46);
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 body {
@@ -116,6 +116,7 @@ img {
 
 .carousel__button img {
     width: 12px;
+    height: 30px;
 }
 .carousel__indicator.current-slide {
     background:white;
