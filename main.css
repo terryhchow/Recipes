@@ -164,3 +164,18 @@ img {
 .pizza_video {
     margin-top: 30px;
 }
+
+.desserts-main {
+    display: flex;
+    justify-content: space-between;
+}
+li.desserts {
+    width: 250px;
+}
+.dessert-group {
+   display: flex;
+   flex-direction: column; 
+}
+.techniques {
+    margin: 100px;
+}
